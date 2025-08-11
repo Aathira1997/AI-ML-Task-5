@@ -22,24 +22,31 @@ Graphviz
 ## Steps
 
 1. Import the Dataset
+   
 Load the dataset using Pandas and explore basic information such as data types and missing values.
 
 2. Data Preparation
+   
 Separate features and the target variable. Split the dataset into training and testing sets using a train-test split.
 
 3. Train a Decision Tree Classifier and Visualize the Tree
+   
 Train a decision tree classifier with a specified maximum depth. Visualize the trained decision tree using Graphviz.
 
 4. Analyze Overfitting and Control Tree Depth
+   
 Train decision trees with varying depths to analyze how tree complexity affects training and testing accuracy. Visualize accuracy trends over different depths.
 
 5. Train a Random Forest and Compare Accuracy
+    
 Train a random forest classifier with multiple estimators. Compare training and testing accuracy to that of the decision tree to check for improvement and reduction in overfitting.
 
 6. Interpret Feature Importances
+   
 Extract and visualize feature importances from the random forest model to understand which features contribute most to the prediction.
 
-7. Evaluate Using Cross-Validation
+8. Evaluate Using Cross-Validation
+   
 Use k-fold cross-validation (k=5) to evaluate the stability and robustness of the random forest model.
 
 ## Output
