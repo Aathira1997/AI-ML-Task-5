@@ -10,9 +10,13 @@ The dataset used is the Heart Disease dataset (heart.csv), which contains 1025 s
 
 ## Tools and Libraries
 Python
+
 Pandas
+
 Scikit-learn
+
 Matplotlib
+
 Graphviz
 
 ## Steps
